@@ -1,0 +1,23 @@
+{
+  "port": 3000,
+  "public folder": "public",
+  "mongoose": {
+    "uri": "mongodb://localhost/rblog",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "session": {
+    "secret": "0466366dfg",
+    "name": "rblog_sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": 43200000
+    }
+  }
+}

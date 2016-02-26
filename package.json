@@ -29,9 +29,11 @@
   "private": true,
   "dependencies": {
     "body-parser": "^1.15.0",
+    "connect-mongo": "^1.1.0",
     "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
-    "mongoose": "^4.4.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.5",
     "morgan": "^1.7.0",
     "nconf": "^0.8.4",
     "vow": "^0.4.12"
